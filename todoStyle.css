@@ -1,0 +1,73 @@
+/* CSS is not incl in vidi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: lightgray;
+}
+
+.wrapper {
+  max-width: 466px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  margin: 50px;
+}
+
+.header {
+  color: lightsalmon;
+  background-color: darkslateblue;
+  text-align: center;
+  padding: 30px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: aliceblue;
+  height: 99px;
+  /* font-size: xx-large; */
+}
+
+.new-task-input {
+  /* border: none;
+  font-size: 30px; */
+}
+
+.add-task-btn {
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: center;
+  color: lightsalmon;
+  background-color: darkslateblue;
+  padding: 5px;
+}
+
+.remove-complete-btn {
+  background-color: darkslateblue;
+  color: lightgray;
+  border: none;
+}
+
+.task-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: aliceblue;
+  height: 99px;
+  font-size: 30px;
+  /* list-style: none;
+  text-decoration: none; */
+}
